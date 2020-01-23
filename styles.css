@@ -59,4 +59,51 @@ p {
     margin-top: 0;
     margin-right: 15px;
   }
+  .button {
+    padding: 3px 10px;
+    font-size: 10px;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  .bottom {
+    position: fixed;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+  }
+
+  .child {
+    margin: 5px;
+  }
+  .large {
+    background-color: rgba(247, 136, 167, 0.6);
+    border-radius: 600%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 65px;
+  }
+  .medium {
+    background-color: rgba(247, 193, 162, 0.7);
+    border-radius: 600%;
+    width: 150px;
+    height: 150px;
+    opacity: 80%;
+    position: absolute;
+    right: 10px;
+    top: 330px;
+  }
+  .small {
+    background-color: rgba(207, 130, 213, 0.6);
+    border-radius: 600%;
+    width: 100px;
+    height: 100px;
+    opacity: 70%;
+    position: absolute;
+    right: 20px;
+    top: 250px;
+  }
 }
